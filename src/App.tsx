@@ -6,8 +6,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/repos/:username" element={<Repositories />} />
+        <Route path="/github-repos-explorer" element={<Home />} />
+        <Route path="/github-repos-explorer/repos/:username" element={<Repositories />} />
       </Routes>
     </BrowserRouter>
   );

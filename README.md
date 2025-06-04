@@ -10,7 +10,7 @@ A responsive web app to search GitHub users and display their repositories.
 - Built with React + TypeScript + Tailwind
 
 ## Live Demo
-👉 [View on GitHub Pages](https://yourusername.github.io/github-repos-explorer)
+👉 [View on GitHub Pages](https://rivan-nfl.github.io/github-repos-explorer)
 
 ## Run Locally
 ```bash

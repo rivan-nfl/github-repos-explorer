@@ -12,7 +12,7 @@ const UserList = ({ users }: Props) => (
                 key={user.login}
                 className="p-3 border-b flex items-center gap-4 hover:bg-gray-50 rounded transition"
             >
-                <Link to={`/repos/${user.login}`} className="flex items-center gap-4 w-full">
+                <Link to={`/github-repos-explorer/repos/${user.login}`} className="flex items-center gap-4 w-full">
                     <img
                         src={user.avatar_url}
                         alt={user.login}
